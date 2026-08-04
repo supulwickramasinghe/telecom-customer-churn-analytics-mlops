@@ -1,0 +1,37 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+
+type: command
+
+name: telecom-churn-model-training
+display_name: Telecom Churn Model Training
+experiment_name: telecom-churn-mlops
+
+code: ../src
+
+command: >-
+  python train.py
+  --input_data ${{inputs.input_data}}
+  --model_output ${{outputs.model_output}}
+  --test_output ${{outputs.test_output}}
+  --target_column churn_value
+
+inputs:
+  input_data:
+    type: uri_folder
+    path: azureml:telecom_churn_features:1
+    mode: ro_mount
+
+outputs:
+  model_output:
+    type: uri_folder
+    mode: rw_mount
+
+  test_output:
+    type: uri_folder
+    mode: rw_mount
+
+environment:
+  conda_file: ../environments/conda.yml
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu22.04
+
+compute: azureml:cpu-churn-cluster

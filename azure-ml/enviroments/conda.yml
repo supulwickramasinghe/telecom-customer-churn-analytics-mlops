@@ -1,0 +1,17 @@
+name: telecom-churn-training-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - azure-ai-ml==1.34.1
+      - azure-identity
+      - azureml-mlflow
+      - mlflow
+      - pandas
+      - numpy
+      - scikit-learn
+      - joblib

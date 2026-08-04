@@ -1,0 +1,57 @@
+# ==========================
+# Python Version
+# ==========================
+python==3.10
+
+# ==========================
+# Azure Machine Learning
+# ==========================
+azure-ai-ml==1.34.1
+azure-identity
+azureml-mlflow
+mlflow
+
+# ==========================
+# Data Processing
+# ==========================
+pandas
+numpy
+pyarrow
+
+# ==========================
+# Machine Learning
+# ==========================
+scikit-learn
+xgboost
+catboost
+imbalanced-learn
+joblib
+
+# ==========================
+# Explainability
+# ==========================
+shap
+
+# ==========================
+# Visualization
+# ==========================
+matplotlib
+seaborn
+
+# ==========================
+# Notebook Environment
+# ==========================
+jupyter
+notebook
+ipykernel
+
+# ==========================
+# Microsoft Fabric
+# ==========================
+pyspark
+
+# ==========================
+# Utilities
+# ==========================
+pyyaml
+tqdm

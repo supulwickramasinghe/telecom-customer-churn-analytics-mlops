@@ -1,0 +1,67 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Azure
+.azure/
+azureml-logs/
+outputs/
+logs/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Models
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+
+# Data
+data/raw/
+data/processed/
+
+# Large datasets
+*.parquet
+*.delta
+
+# Power BI
+*.pbix.tmp
+
+# Operating System
+Thumbs.db
+.DS_Store
+
+# Secrets
+*.pem
+*.key
+*.crt
+
+# Temporary files
+*.tmp
+*.bak
