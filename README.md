@@ -30,6 +30,8 @@ The solution demonstrates a complete modern analytics workflow—from raw data i
 
 Unlike traditional churn prediction projects that focus only on model training, this project recreates an enterprise analytics platform where raw operational data is transformed into business-ready insights and production-oriented machine learning pipelines.
 
+![Overall Structure](docs/architecture/all.png)
+
 ---
 
 ## 🎯 Business Problem
@@ -228,6 +230,10 @@ The Gold layer contains:
 
 using a Star Schema optimized for analytics and machine learning.
 
+![Star Schema](docs/architecture/star_schema.png)
+
+
+
                  Dim Customer
                       │
                       │
@@ -236,7 +242,6 @@ Dim Geography ─── Fact Customer Churn ─── Dim Service
                       │
                Dim Contract
 
-![Star Schema](docs/architecture/star_schema.png)
 
 ---
 
@@ -295,19 +300,18 @@ Interactive dashboards provide business insights including:
 
 Architecture
 
-*(Insert screenshot)*
+![Overall Solution Architecture](docs/architecture/overall_solution_architecture.png)
 
 Fabric
 
-*(Insert screenshot)*
+![Fabric Workspace](fabric/screenshots/workspace.png)
 
 Power BI
 
-*(Insert screenshot)*
 
 Azure Machine Learning
 
-*(Insert screenshot)*
+![Azure ML Workspace](azure-ml/screenshots/workspace.png)
 
 ---
 
