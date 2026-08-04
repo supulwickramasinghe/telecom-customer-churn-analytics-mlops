@@ -1,4 +1,4 @@
-# 🚀 Telecom Customer Churn Analytics & Prediction Platform
+# Telecom Customer Churn Analytics & Prediction Platform
 
 <p align="center">
 
