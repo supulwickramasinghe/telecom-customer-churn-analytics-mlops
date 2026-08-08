@@ -52,31 +52,31 @@ This project addresses that challenge by building a unified analytics platform c
 
 ## ✨ Key Features
 
-✅ Bronze–Silver–Gold Medallion Architecture
+Bronze–Silver–Gold Medallion Architecture
 
-✅ Data Quality Validation Framework
+Data Quality Validation Framework
 
-✅ Business Rule Validation
+Business Rule Validation
 
-✅ Quarantine Tables
+Quarantine Tables
 
-✅ Delta Lake Storage
+Delta Lake Storage
 
-✅ Star Schema Design
+Star Schema Design
 
-✅ Semantic Model
+Semantic Model
 
-✅ Interactive Power BI Dashboard
+Interactive Power BI Dashboard
 
-✅ Machine Learning Model Comparison
+Machine Learning Model Comparison
 
-✅ Feature Engineering
+Feature Engineering
 
-✅ Azure Machine Learning
+Azure Machine Learning
 
-✅ MLflow Experiment Tracking
+MLflow Experiment Tracking
 
-✅ Reproducible Cloud Training Pipeline
+Reproducible Cloud Training Pipeline
 
 ---
 
