@@ -34,7 +34,7 @@ Unlike traditional churn prediction projects that focus only on model training, 
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Telecommunication providers lose significant revenue due to customer churn.
 
@@ -50,7 +50,7 @@ This project addresses that challenge by building a unified analytics platform c
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 Bronze–Silver–Gold Medallion Architecture
 
@@ -80,7 +80,7 @@ Reproducible Cloud Training Pipeline
 
 ---
 
-# 🏗 Solution Architecture
+# Solution Architecture
 
 ![Overall Solution Architecture](docs/architecture/overall_solution_architecture.png)
 
@@ -155,7 +155,7 @@ telecom-customer-churn-analytics-mlops/
 
 ---
 
-# 🔄 End-to-End Workflow
+# End-to-End Workflow
 
 IBM Telecom Dataset
 
@@ -201,7 +201,7 @@ Model Registry
 
 ---
 
-# 📊 Microsoft Fabric
+# Microsoft Fabric
 
 ### Bronze Layer
 
@@ -245,7 +245,7 @@ Dim Geography ─── Fact Customer Churn ─── Dim Service
 
 ---
 
-# 🤖 Machine Learning
+# Machine Learning
 
 Multiple machine learning models were evaluated to predict customer churn.
 
@@ -283,7 +283,7 @@ Implemented components include:
 
 ---
 
-# 📈 Power BI Dashboard
+# Power BI Dashboard
 
 Interactive dashboards provide business insights including:
 
@@ -316,7 +316,7 @@ Azure Machine Learning
 ---
 
 
-# 🚀 Future Improvements
+# Future Improvements
 
 - CI/CD using GitHub Actions
 - Automated Retraining
